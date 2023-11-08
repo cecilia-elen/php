@@ -1,0 +1,25 @@
+#div1{ 
+    background-color:#ffccee ;
+    height: 1024px;
+    width: 1280px; ;
+}
+
+#div2{
+background-color: hsl(254, 40%, 80%);
+    height: 1024px;
+     width: 1280px;
+}
+
+#div3{
+
+    background-color: red;
+    height: 1024px;
+    width: 1280px;
+}
+
+#div4{
+    
+    background-color: rgba(red, green, blue, alpha);
+    height: 1024px;
+    width: 1280px;
+}
