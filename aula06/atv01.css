@@ -1,0 +1,35 @@
+
+
+.box{
+    margin: 4px;
+    height: 700px;
+    display: grid;
+    grid-template-areas: "MR LI "
+                          "ML LI2 "
+                          ;
+    grid-template-rows: 200px  150px;
+    grid-template-columns: 50% 50%;
+
+
+                                }
+
+.coluna1{
+background-color: gold;
+grid-area: ML;
+}
+
+.coluna2{
+background-color: magenta;
+grid-area: MR;
+}
+
+.linha1{
+
+background-color: aquamarine;
+grid-area: LI;
+}
+
+.linha2{
+    background-color: crimson;
+grid-area: LI2;
+}

@@ -1,0 +1,32 @@
+.box{
+    margin: 4px;
+    height: 700px;
+    display: grid;
+    grid-template-areas: "ML ML ML"
+                          "LI2 MR MC"
+                         ;
+    grid-template-rows: 180px 60px 90px;
+    grid-template-columns: 40px 50px 100px;
+
+                                }
+
+.coluna1{
+background-color: gold;
+grid-area: ML;
+}
+
+.coluna2{
+background-color: magenta;
+grid-area: MR;
+}
+
+.coluna3{
+    background-color: greenyellow;
+    grid-area: MC;
+}
+
+.linha2{
+height: 60px;
+background-color: crimson;
+grid-area: LI2;
+}

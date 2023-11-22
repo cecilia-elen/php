@@ -1,0 +1,46 @@
+*{
+    margin: 5px;}
+
+
+body{
+    background-color: blue;
+    margin: 4px;
+    border: 5px solid rgb(0, 0, 0);
+   
+}
+
+.box{
+    height: 500px;
+     display: grid;
+    grid-template-areas:"topo topo MR"        
+                            "ML cont MR"
+                            "ML RO MR" ;
+    grid-template-rows: 50px 1fr 90px;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+.menue{
+    background-color: aqua;
+    height: 200px;
+    grid-area: ML;
+}
+
+.menud{
+    background-color: rgb(30, 255, 0);
+    height: 200px;
+    grid-area: MR;
+}
+
+.rodape{
+    background-color: rgb(255, 0, 0);
+    grid-area: RO;
+}
+
+.titulo{
+    background-color: rgb(98, 0, 255);
+   grid-area: topo;
+}
+.caixa{
+    background-color: rgb(160, 133, 204);
+   
+}
