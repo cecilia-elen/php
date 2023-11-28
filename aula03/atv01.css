@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+
+div{
+    
+    height: 25vh;
+    width: 1fr;
+    border: 3px dashed darkred;
+}
+#div1{
+    background-color: #ffccee;
+}
+
+#div2{
+    background-color: hsl(50, 50, 40);
+}
+
+#div3{
+    background-color: red;
+}
+#div4{
+    background-color: rgb(61, 121, 78);
+}
+
+ div div{
+        margin: 0 auto;
+        background-color: rgb(247, 248, 248);
+        height: 50px;
+        width: 50px;
+       text-align: center
+       
+    }
