@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="atv01.css">
 </head>
 <body>
-    <div id="div1"> </div>
+    <div>
+    <div id="div1"> </div> 
+    </div>
+    <div>
     <div id="div2"> </div>
+    </div>
+    <div>
     <div id="div3"> </div>
+    </div>
+    <div>
     <div id="div4"> </div>
+    </div>
 
 </body>
 </html>
