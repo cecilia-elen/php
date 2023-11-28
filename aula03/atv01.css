@@ -3,7 +3,6 @@
 }
 
 div{
-    
     height: 25vh;
     width: 1fr;
     border: 3px dashed darkred;
@@ -24,7 +23,7 @@ div{
 }
 
  div div{
-        margin: 0 auto;
+        margin: 8vh auto;
         background-color: rgb(247, 248, 248);
         height: 50px;
         width: 50px;
