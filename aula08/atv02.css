@@ -1,0 +1,127 @@
+
+.box{
+    display: grid;
+    grid-template-areas: "t t t"
+                         "ml cont mr"
+                         "r r r";
+   grid-template-columns: 80px 1fr 200px;
+   grid-template-rows: 100px 450px 90px;
+   color: aliceblue;
+   padding: 0px;
+}
+
+.menul{
+    grid-area: ml;
+    display: grid;
+    grid-template-areas: "a1"
+                         "a2"
+                         "a3";
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 80px;
+}
+.menul .menu1{
+    grid-area: a1;
+    background-color: blue;
+}
+
+.menul .menu2{
+    background-color: black;
+    grid-area: a2;
+
+}
+
+.menul .menu3{
+    grid-area: a3;
+    background-color: grey;
+}
+
+
+.menur{
+    grid-area: mr;
+    display: grid;
+    grid-template-areas: "1 2"
+                         "3 4"
+                         "5 6"
+                         "7 8";
+grid-template-rows: 50px 50px 50px 50px;
+grid-template-columns: 200px 200px;
+}
+
+.header{
+    grid-area: t;
+    background-color: yellow;
+}
+
+.rodape{
+    grid-area: r;
+    background-color: red ;
+}
+
+.conteudo{
+    grid-area: cont;
+    background-color: turquoise;
+}
+
+.menur .div1{
+    grid-area: 1;
+    background-color: red;
+
+}
+
+.menur .div2{
+    grid-area: 2;
+    background-color: orangered;
+   
+}
+
+.menur .div3{
+    grid-area: 3;
+    background-color: yellow;
+}
+
+.menur .div4{
+    grid-area: 4;
+    background-color: greenyellow;
+}
+
+.menur .div5{
+    grid-area: 5;
+
+}
+.menur .div6{
+    grid-area: 6;}
+
+.menur .div7{
+    grid-area: 7;}
+
+.menur .div8{
+    grid-area: 8;
+    background-color: palevioletred;
+}
+
+.div5 #p3{
+    background-color: gray;
+}
+
+.div5 #p4{
+    background-color: darkcyan;}
+
+    .div6 #a{background-color: mediumslateblue;
+
+    }
+
+    .div6 #b{
+        background-color: gold;
+    }
+
+    .div6 #c{
+        background-color: orchid;
+    }
+
+    .div7 #p1{
+        background-color: coral;
+    }
+
+    .div7 #p2{
+        background-color: slategray;
+    }

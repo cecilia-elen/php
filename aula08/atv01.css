@@ -1,0 +1,55 @@
+
+.box{
+    display: grid;
+    grid-template-areas: "t t t"
+                         "ml cont mr"
+                         "r r r";
+   grid-template-columns: 80px 1fr 200px;
+   grid-template-rows: 100px 450px 90px;
+}
+
+.menul{
+    grid-area: ml;
+    display: grid;
+    grid-template-areas: "a1"
+                         "a2"
+                         "a3";
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 80px;
+}
+.menul .menu1{
+    grid-area: a1;
+    background-color: blue;
+}
+
+.menul .menu2{
+    background-color: black;
+    grid-area: a2;
+
+}
+
+.menul .menu3{
+    grid-area: a3;
+    background-color: grey;
+}
+
+
+.menur{
+    grid-area: mr;
+    background-color: violet;
+}
+
+.header{
+    grid-area: t;
+    background-color: yellow;
+}
+
+.rodape{
+    grid-area: r;
+    background-color: red ;
+}
+
+.conteudo{
+    grid-area: cont;
+    background-color: turquoise;
+}
