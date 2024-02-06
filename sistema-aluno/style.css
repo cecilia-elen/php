@@ -1,0 +1,60 @@
+body{
+    background-color: yellow;
+    
+}
+
+body> .cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+body> .cabeçalho > img{
+    height: 100px;
+    width: 200px;
+}
+
+body> .cabeçalho > nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+body> .cabeçalho> nav> :hover{
+    text-decoration:underline;
+    color: yellow;
+}
+
+body> .cabeçalho> nav> :link{
+    text-decoration: none;
+}
+
+body> .meio{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: beige;
+
+}
+
+body> .meio > .esquerda{
+    background-color: aquamarine;
+  flex:1
+
+}
+
+body> .meio > .direita{
+    background-color: grey;
+    flex:4
+}
+
+
+body> .rodape{
+    background-color: coral;
+    height: 50px;
+
+}
+
+
+
