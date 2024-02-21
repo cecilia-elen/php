@@ -1,12 +1,12 @@
 body{
-    background-color: yellow;
+    background-color: rgb(114, 88, 209);
     
 }
 
 body> .cabeçalho{
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color: rgb(230, 13, 49);
 }
 
 body> .cabeçalho > img{
@@ -18,12 +18,12 @@ body> .cabeçalho > nav{
     width: 400px;
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color: rgb(230, 13, 49);
 }
 
 body> .cabeçalho> nav> :hover{
     text-decoration:underline;
-    color: yellow;
+    color: rgb(255, 255, 255);
 }
 
 body> .cabeçalho> nav> :link{
@@ -34,27 +34,89 @@ body> .meio{
     display: flex;
     justify-content: space-evenly;
     height: 600px;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 
 }
 
 body> .meio > .esquerda{
-    background-color: aquamarine;
+    background-color: rgb(157, 209, 240);
   flex:1
 
 }
 
 body> .meio > .direita{
-    background-color: grey;
+    background-color: rgb(208, 233, 215);
     flex:4
 }
 
 
 body> .rodape{
-    background-color: coral;
+    background-color: rgb(243, 149, 201);
     height: 50px;
 
 }
 
+    body> .meio > .table{
+   
+        width: 70%;
+        grid-area: flex;
+        height: 100%
+    
+
+    }
+
+    td:hover {background-color: palevioletred;}
 
 
+      th:nth-child(even),td:nth-child(even) {
+        background-color: white;
+      }
+    body> .meio > .quadro{
+        background-color: aliceblue;
+        display: flex;
+        justify-items: space-between;
+      
+
+        
+    }
+
+    body> .meio > .quadru{
+        display: flex;
+        background-color: aliceblue;
+        border: 2px;
+         width: 100%;
+    
+        
+    }
+
+    table, th, td {
+        border:1px ridge black;
+        height: 40px;
+        width: 20%;
+      }
+
+      body> .meio > .form{
+
+        display: flex;
+        background-color: aliceblue;
+        height: 50%;
+        width: 70%;
+        align-items: center;
+      }
+
+      body> .meio > .form> .a{
+       
+        width: 60%;
+        align-items: center;
+        height: 30%;
+
+
+      }
+
+
+      body> .meio > .form> .titulo{
+       align-items: center;
+         height: 100%;
+         width: 100%;
+      }
