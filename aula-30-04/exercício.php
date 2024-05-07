@@ -39,4 +39,5 @@ echo "<br>Professor: <br>";
 foreach ($professor as $d) {
     echo  key($professor) . ": $d  <br>";
     next($professor);
-}
+} 
+?>
