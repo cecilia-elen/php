@@ -1,0 +1,16 @@
+body{
+    margin: 20%;
+background-color: black;
+color: white;
+font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-bottom: 45%;
+text-align: center;
+text-decoration:wavy;}
+
+h1{background-color: rgb(114, 46, 179);
+}
+h2{background-color: rgb(148, 76, 216);}
+pre{
+    background-color: rgb(185, 150, 185);
+}
