@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    align-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+  background-color: palevioletred;
+}
+
+pre{
+  background-color: white;
+}
+table{
+   
+    border: solid 1px black;
+    width: 500px;
+  }
+  
+  table td{
+    border: solid 1px black;
+  }
