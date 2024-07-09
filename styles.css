@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+    align-content: center;
+
+    
+   
+
+}
+
+table{
+   
+    border: solid 1px black;
+    width: 500px;
+  }
+  
+  table td{
+    border: solid 1px black;
+  }
